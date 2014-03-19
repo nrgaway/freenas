@@ -1,0 +1,4 @@
+include:
+  - vim
+  - ntp
+#  - zsh

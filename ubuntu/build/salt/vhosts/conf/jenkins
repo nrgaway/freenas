@@ -1,0 +1,10 @@
+server {
+
+	listen 81;
+	server_name jenkins.local;
+	root /var/www/jenkins.local;
+
+	include conf.d/php5-fpm.conf;
+	include conf.d/restrictions.conf;
+	include conf.d/wordpress-ms.conf;
+}
